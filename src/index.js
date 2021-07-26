@@ -1,12 +1,12 @@
 module.exports = function toReadable (number) {
-  let arr = Array.from(String(num), Number).reverse();
+  let arr = Array.from(String(number), Number).reverse();
     //console.log(arr);
     let wordArr = [];
     let subWordArr = [];
     let countTriads = 1;
     //console.log(numOfTreads);
 
-    if (num === 0) {
+    if (number === 0) {
         return 'zero';
     }
     if (arr.length % 3 === 1) {
